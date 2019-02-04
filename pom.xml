@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+		http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.scijava</groupId>
+		<artifactId>pom-scijava</artifactId>
+		<version>14.0.0</version>
+		<relativePath />
+	</parent>
+
+	<groupId>com.mikepound</groupId>
+	<version>0.1.0</version>
+
+	<name>COLORFUL Spotter</name>
+	<description>The COLORFUL Spotter ImageJ plugin.</description>
+	<url>http://github.com/mikepound/colorful</url>
+	<inceptionYear>2019</inceptionYear>
+	<organization>
+		<name>University of Nottingham</name>
+		<url>http://nottingham.ac.uk/</url>
+	</organization>
+	<licenses>
+		<license>
+			<name>MIT License</name>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<id>ctrueden</id>
+			<name>Curtis Rueden</name>
+			<url>http://imagej.net/User:Rueden</url>
+			<roles>
+				<role>lead</role>
+				<role>developer</role>
+				<role>debugger</role>
+				<role>reviewer</role>
+				<role>support</role>
+				<role>maintainer</role>
+			</roles>
+		</developer>
+	</developers>
+	<contributors>
+		<contributor>
+			<name>Johannes Schindelin</name>
+			<url>http://imagej.net/User:Schindelin</url>
+			<roles><role>founder</role></roles>
+			<properties><id>dscho</id></properties>
+		</contributor>
+	</contributors>
+
+	<properties>
+		<package-name>com.mikepound</package-name>
+		<main-class>com.mikepound.COLORFUL_Spotter</main-class>
+		<license.licenseName>mit</license.licenseName>
+		<license.copyrightOwners>University of Nottingham</license.copyrightOwners>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>net.imagej</groupId>
+			<artifactId>ij</artifactId>
+		</dependency>
+	</dependencies>
+	<artifactId>COLORFUL_Spotter</artifactId>
+</project>
